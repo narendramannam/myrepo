@@ -5,6 +5,11 @@ pipeline {
     }
   }
   
+  tools {
+    java 'defaultjava'
+    gradle 'defaultgradle'
+  }
+  
   stages {
     
     stage('checkout') {
@@ -14,7 +19,10 @@ pipeline {
     }
     stage('build') {
       steps {
-        sh 'echo "build done!!"'
+        sh '''
+          java -version
+          gradle -version
+        '''
       }
     }
   }
