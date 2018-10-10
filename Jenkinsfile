@@ -5,10 +5,6 @@ pipeline {
     }
   }
   
-  tools {
-    gradle 'DEFAULT_GRADLE_VERSION'
-  }
-  
   stages {
     
     stage('checkout') {
