@@ -11,7 +11,7 @@ pipeline {
    }
   
   environment {
-    JAVA_BINDIR
+    
   }
   stages {
     
