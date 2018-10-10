@@ -10,9 +10,8 @@ pipeline {
     jdk 'OPENJDK_DEFAULT_VERSION'
    }
   
-  environment {
-    
-  }
+  //environment {
+  //}
   stages {
     
     stage('checkout') {
