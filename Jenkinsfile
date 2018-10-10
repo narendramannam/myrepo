@@ -6,7 +6,6 @@ pipeline {
   }
   
   tools {
-    java 'defaultjava'
     gradle 'defaultgradle'
   }
   
