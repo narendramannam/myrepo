@@ -6,7 +6,7 @@ pipeline {
   }
   
   tools {
-    gradle 'defaultgradle'
+    gradle 'DEFAULT_GRADLE_VERSION'
   }
   
   stages {
