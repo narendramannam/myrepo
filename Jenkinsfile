@@ -10,9 +10,9 @@ pipeline {
     jdk 'JDK_DEFAULT_VERSION'
    }
   
-  environment {
-    JAVA_BINDIR="${tool 'JDK_DEFAULT_VERSION'}/bin"
-  }
+  //environment {
+  //  JAVA_BINDIR="${tool 'JDK_DEFAULT_VERSION'}/bin"
+  //}
   stages {
     
     stage('checkout') {
