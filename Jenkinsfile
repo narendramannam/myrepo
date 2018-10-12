@@ -11,7 +11,7 @@ pipeline {
    }
   
   environment {
-    JAVA_BINDIR="$(tool 'JDK_DEFAULT_VERSION')/bin"
+    JAVA_BINDIR="${tool 'JDK_DEFAULT_VERSION'}/bin"
   }
   stages {
     
