@@ -7,7 +7,7 @@ pipeline {
   
   tools {
     gradle 'DEFAULT_GRADLE_VERSION'
-    jdk 'JDK_DEFAULT_VERSION'
+    //jdk 'JDK_DEFAULT_VERSION'
    }
   
   //environment {
